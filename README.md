@@ -39,7 +39,7 @@ There's 2 ways to hack into this smart contract. Firstly, we could build a for l
 
 If we want to become the owner of the contract then we have to access the receive function. To access it we need to contribute with an x amount whos lower than 0.001 ether, but also send a transaction with empty calldata. 
 
-Let's use the contribute function. To send an amount lower than 0.001 we are gonna use Wei this time around. Go to https://eth-converter.com/ and insert at ether tab "0.0005", that should 5e14 Wei (or 5 * by 10^14). Paste that into Value tab and then click on the contribute function. Check contribution function by pasting your wallet's address and now you should be able to see your contribution to the contract:
+Let's use the contribute function. To send an amount lower than 0.001 we are going to use Wei this time around. Go to https://eth-converter.com/ and insert at ether tab "0.0005", that should be 5e14 Wei (or 5 * (10^14) ). Paste that into Value tab and then click on the contribute function. Check contribution function by pasting your wallet's address and now you should be able to see your contribution to the contract:
   
 <img src="./images/image4.png">
 
