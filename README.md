@@ -26,6 +26,7 @@ And at SafeMath.sol:
 >- <value> 1. Pragma version from **0.8.0** to **0.8.17**
 
 Compile both contracts:
+
 <img src="./images/image2.png">
 
 Now instead of deploying Fallback.sol we are going to interact with the already deployed contract by using instance address showed on Developer Tools. Dont forget to add your wallet on Environment by selecting "Injected Provider - Metamask".
